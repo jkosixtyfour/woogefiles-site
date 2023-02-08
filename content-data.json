@@ -1,16 +1,10 @@
 {
   "content": [
    {
-     "name": "Sample",
-     "image": "/woogefiles/ad/img/placeholder.png",
-     "description": "sample description",
-     "pagename": "example"
-   },
-   {
-     "name": "Sampl2e",
-     "image": "/woogefiles/ad/img/placeholder.png",
-     "description": "sa2mple description",
-     "pagename": "examp2le"
+     "name": "Rufus",
+     "image": "//raw.githubusercontent.com/pbatard/rufus/master/res/icons/rufus-128.png",
+     "description": "Rufus is a software which flashes ISOs to a USB device.",
+     "pagename": "rufus"
    }
   ]
 }
