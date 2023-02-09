@@ -5,7 +5,13 @@
      "image": "//raw.githubusercontent.com/pbatard/rufus/master/res/icons/rufus-128.png",
      "description": "Rufus is a software which flashes ISOs to a USB device.",
      "pagename": "rufus"
-   }
+   },
+   {
+    "name": "Windows Media Maker 2012",
+    "image": "//raw.githubusercontent.com/Woogefiles/content-repo/main/content/img/win-mm-2012.png",
+    "description": "Windows Media Maker 2012 is a video creating/editing software, built into Windows.",
+    "pagename": "win-mm-2012"
+  }
   ]
 }
  
