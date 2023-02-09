@@ -5,7 +5,7 @@ body {
 }
 @keyframes header-button {
   0% { background: rgba(0,0,0,0); box-shadow: none; }
-  100% { background: #ae0202; box-shadow: 2px 2px 2px #9c0101; }
+  100% { background: #dbac34; box-shadow: 2px 2px 2px #bd942d; }
 }
 
 @keyframes rainbow-color {
@@ -32,7 +32,7 @@ main a {
 }
 
 .header {
-    background: #c30101;
+    background: #FFC83D;
     padding: 7px;
     height: 48px;
 }
@@ -49,8 +49,8 @@ main a {
 
 .header a:hover {
     border-radius: 5px;
-    background: #ae0202;
-    box-shadow: 2px 2px 2px #9c0101;
+    background: #dbac34; 
+    box-shadow: 2px 2px 2px #bd942d;
     animation: header-button 0.5s;
 }
 
