@@ -11,6 +11,18 @@
     "image": "//raw.githubusercontent.com/Woogefiles/content-repo/main/content/img/win-mm-2012.png",
     "description": "Windows Media Maker is a video creating/editing software, built into Windows ME-Windows 7.",
     "pagename": "win-mm-2012"
+  },
+  {
+    "name": "clckctac",
+    "image": "//raw.githubusercontent.com/Woogefiles/content-repo/main/content/img/clckctac.png",
+    "description": "ctckctac is a game buitneld with windows ctac with thre same b ugdet as woogefiles devleopmetn",
+    "pagename": "clckctac"
+  },
+  {
+    "name": "Node.js",
+    "image": "//raw.githubusercontent.com/Woogefiles/content-repo/main/content/img/node-js.png",
+    "description": "Node.js is an open-source, cross-platform JavaScript runtime environment.",
+    "pagename": "node-js"
   }
   ]
 }
