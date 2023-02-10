@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+/* Font and background */
 body {
     margin: 0;
     font-family: 'Rubik', sans-serif;
+    height: 100vh;
 }
+
+/* Animations */
 @keyframes header-button {
   0% { background: rgba(0,0,0,0); box-shadow: none; }
   100% { background: #dbac34; box-shadow: 2px 2px 2px #bd942d; }
@@ -19,18 +24,14 @@ body {
     87.5% { color: purple; }
     100% { color: red; }
 }
+
 @keyframes marquee {
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
 }
-main a {
-    animation: rainbow-color linear 10s infinite;
-    text-decoration: none;
-}
-.content {
-    text-align: center;
-}
+/* End of animations */
 
+/* Navbar */
 .header {
     background: #FFC83D;
     padding: 7px;
@@ -61,50 +62,39 @@ img.header-logo {
     height: 48px;
 }
 
+/* Content */
 main {
     box-sizing: border-box;
     padding: 10px;
 }
 
-.thumb {
-    width: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+.content {
+    text-align: center;
 }
 
-.screenshot {
+main a {
+    animation: rainbow-color linear 10s infinite;
+    text-decoration: none;
+}
+
+main > div {
+    text-align: center;
+}
+
+/* Content elements */
+.thumb {
     width: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto
 }
 
-main > div {
-    text-align: center;
-}
-.text-muted {
-    color: rgba(33, 37, 41, 0.74);
-}
 #content-box {
     padding: 5px;
 }
-.get-button {
-    text-decoration: none;
-    padding: 20px;
-    border-radius: 5px;
-    font-size: 20px;
-    background: linear-gradient(rgb(29, 203, 29), rgb(1, 151, 1));
-    color: white;
-    animation: none;
-}
-.get-button:hover {
-    background: linear-gradient(rgb(33, 225, 33), rgb(2, 187, 2));
-}
-.get-button:active {
-    background: linear-gradient(rgb(28, 188, 28), rgb(1, 127, 1));
-}
-.author-name { 
+
+/* Misc */
+.italic { 
     font-style: italic;
 }
 .left {
@@ -113,6 +103,15 @@ main > div {
 .marquee {
     animation: marquee 20s linear infinite;
 }
+
+.text-muted {
+    color: rgba(33, 37, 41, 0.74);
+}
+/* THE THANKS IN HOME PAGE - PROB WILL BE REMOVED LATER */
 .thanks {
     padding: 50px;
+    border-radius: 10px;
+}
+.thanks img {
+     border-radius: 10px;
 }

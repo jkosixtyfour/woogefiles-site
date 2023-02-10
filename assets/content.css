@@ -1,0 +1,64 @@
+body {
+    backdrop-filter: blur(4px);
+}
+
+.header {
+    backdrop-filter: blur(4px);
+    background: rgb(0,0,0, 0.5)
+}
+
+@keyframes header-button {
+    0% { background: rgba(0,0,0,0); box-shadow: none; }
+    100% { background: rgb(0,0,0, 0.6); box-shadow: 2px 2px 2px rgb(0,0,0); }
+}
+
+.header a:hover {
+    border-radius: 5px;
+    background: rgb(0,0,0, 0.6); 
+    box-shadow: 2px 2px 2px rgb(0,0,0);
+    animation: header-button 0.5s;
+}
+
+.get-button {
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.3);
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
+    background: linear-gradient(rgb(29, 203, 29, 0.6), rgb(1, 151, 1, 0.6));
+    color: white;
+    animation: none;
+}
+
+.get-button:hover {
+    background: linear-gradient(rgb(33, 225, 0.6), rgb(2, 187, 0.6));
+}
+
+.get-button:active {
+    background: linear-gradient(rgb(28, 188, 28 0.6), rgb(1, 127, 0.6));
+}
+
+.screenshot {
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.content-body {
+    width: 30%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    padding: 18px;
+    padding-bottom: 28px;
+}
+.content-body .screenshot {
+    border-radius: 5px;
+}
+.profile-author {
+    vertical-align: middle;
+    border-radius: 10px;
+}
