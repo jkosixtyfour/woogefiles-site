@@ -60,13 +60,17 @@ img.header-logo {
 /* Welcome box */
 .welcome-box {
     text-shadow: 0 2px 2px rgb(0 0 0 / 25%);  
-    background: linear-gradient(rgb(21, 160, 184), rgb(14, 106, 122));
+    background: url('/assets/bg.png') no-repeat;
+    background-size: cover;
     padding: 20px;
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.3); 
     color: white;
-    font-size: 17px;
+    font-size: 18px;
 }
 
+.welcome-box a {
+    color: rgb(110, 180, 178);
+}
 /* Content */
 main {
     box-sizing: border-box;
@@ -77,9 +81,12 @@ main {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 main a, footer a {
     animation: rainbow-color linear 10s infinite;
-    text-decoration: none;
 }
 
 main > div {
@@ -132,6 +139,7 @@ footer {
     bottom: 0px;
     width: 100%;
 }
-.bottom-pad {
-    padding-bottom: 20px;;
+/* THANKS TO YOU, THIS PROJECT IS ALIVE! */
+.thanks-to-you {
+    margin-bottom: 10px;
 }
