@@ -26,9 +26,9 @@ body {
 }
 /* End of animations */
 
-/* Navbar */
+/* Navbar */ 
 .header {
-    background: rgba(163, 8, 163, 0.368);
+    background: #e6b400ac;
     height: 48px;
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.3); 
 }
@@ -55,6 +55,15 @@ img.header-logo {
     float: left;
     width: 48px;
     height: 48px;
+}
+
+/* Welcome box */
+.welcome-box {
+    background: rgb(184, 184, 21);
+    padding: 20px;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.3); 
+    color: white;
+    font-size: 17px;
 }
 
 /* Content */
@@ -104,6 +113,7 @@ main > div {
 .text-muted {
     color: rgba(33, 37, 41, 0.74);
 }
+
 /* THE THANKS IN HOME PAGE - PROB WILL BE REMOVED LATER */
 .thanks {
     padding: 50px;
