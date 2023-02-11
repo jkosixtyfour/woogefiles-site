@@ -115,15 +115,14 @@ main > div {
     color: rgba(33, 37, 41, 0.74);
 }
 
-/* THE THANKS IN HOME PAGE - PROB WILL BE REMOVED LATER
 .thanks {
     padding: 50px;
-    border-radius: 10px;
 }
+
 .thanks img {
-     border-radius: 10px;
+     border-radius: 50%;
 }
-*/
+
 footer {
     background:rgb(242, 242, 242);
     color: rgb(86, 86, 86);
